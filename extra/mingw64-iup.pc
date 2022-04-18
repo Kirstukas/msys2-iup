@@ -1,0 +1,17 @@
+V=3.30
+R=3.30
+
+prefix=/mingw64
+INSTALL_BIN=${prefix}/bin
+INSTALL_INC=${prefix}/include
+INSTALL_LIB=${prefix}/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: IUP
+Description: A multi-platform toolkit for building graphical user interfaces
+Version: ${R}
+Requires: 
+Libs: -L${libdir} -liup -lgdi32 -lcomdlg32 -lcomctl32 -luuid -loleaut32 -lole32
+Cflags: -I${includedir}

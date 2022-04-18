@@ -1,0 +1,15 @@
+libfreetype6.a
+libftgl.a
+libiup.a
+libiup_mglplot.a
+libiup_plot.a
+libiup_scintilla.a
+libiupcd.a
+libiupcontrols.a
+libiupgl.a
+libiupglcontrols.a
+libiupim.a
+libiupimglib.a
+libiupole.a
+libiuptuio.a
+libz.a

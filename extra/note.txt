@@ -1,0 +1,6 @@
+"libraries.txt" and "headers.txt" are only for
+uninstalling IUP.
+
+The script will download IUP-3.30. For newer
+versions "libraries.txt", "headers.txt", "*-iup.pc"
+and both installation scripts should be changed.
