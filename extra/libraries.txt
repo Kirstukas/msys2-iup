@@ -13,3 +13,16 @@ libiupimglib.a
 libiupole.a
 libiuptuio.a
 libz.a
+libiuplua54.a
+libiuplua_mglplot54.a
+libiuplua_plot54.a
+libiuplua_scintilla54.a
+libiupluacd54.a
+libiupluacontrols54.a
+libiupluagl54.a
+libiupluaglcontrols54.a
+libiupluaim54.a
+libiupluaimglib54.a
+libiupluaole54.a
+libiupluascripterdlg54.a
+libiupluatuio54.a

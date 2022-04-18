@@ -22,6 +22,11 @@ wget "https://sourceforge.net/projects/iup/files/3.30/Windows%20Libraries/Static
 unzip download
 rm download
 
+# Download and unpack iup-lua
+wget "https://sourceforge.net/projects/iup/files/3.30/Windows%20Libraries/Static/Lua54/iup-3.30-Lua54_Win32_mingw6_lib.zip/download"
+yes A | unzip download
+rm download
+
 # Move all the libraries
 for LIBRARY in `cat ../extra/libraries.txt`
 do
@@ -40,6 +45,8 @@ done
 mkdir -p /mingw32/lib/pkgconfig
 echo "mingw32-iup.pc -> /mingw32/lib/pkgconfig/iup.pc"
 cp ../extra/mingw32-iup.pc /mingw32/lib/pkgconfig/iup.pc
+echo "mingw32-iup-lua.pc -> /mingw32/lib/pkgconfig/iup-lua.pc"
+cp ../extra/mingw32-iup-lua.pc /mingw32/lib/pkgconfig/iup-lua.pc
 
 # Cleanup
 cd ..

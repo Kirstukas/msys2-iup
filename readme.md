@@ -6,6 +6,8 @@ About
 This script simply installs [IUP][iup] for eather MinGW32 or MinGW64.
 It adds a *iup.pc* file for pkg-config support.
 
+The script automatically installs Lua54 bindings.
+
 HowTo
 -----
 
