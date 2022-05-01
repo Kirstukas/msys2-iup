@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check if required commands exist
 CMDS="wget unzip"
 FAILED=0

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Remove all the libraries
 for LIBRARY in `cat extra/libraries.txt`
 do
